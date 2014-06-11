@@ -375,6 +375,23 @@ public class HDWallet {
         }
     }
 
+	private void test()
+	{
+		RestClient client = new RestClient("http://www.example.com/demo.php");  //Write your url here
+		client.addParam("Name", "Bhavit"); //Here I am adding key-value parameters
+		client.addParam("Age", "23");
+
+		client.addHeader("content-type", "application/json"); // Here I am specifying that the key-value pairs are sent in the JSON format
+
+		try {
+			String response = client.executePost(); // In case your server sends any response back, it will be saved in this response string.
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+
     public HDWallet(WalletApplication walletApp,
                     NetworkParameters params,
                     KeyCrypter keyCrypter,
