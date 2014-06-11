@@ -86,7 +86,15 @@
 	  android:layout_weight="5"
 	  />
 
-      <Button
+        <Button
+            android:id="@+id/send_request_local"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send_request_local"
+            android:onClick="sendRequestLocal"
+            />
+
+        <Button
 	  android:id="@+id/send_request"
 	  android:layout_width="180dp"
 	  android:layout_height="wrap_content"

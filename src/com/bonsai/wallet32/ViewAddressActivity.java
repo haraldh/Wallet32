@@ -158,6 +158,12 @@ public class ViewAddressActivity extends BaseWalletActivity {
         return bitmap;
     }
 
+	public void sendRequestLocal(View view) {
+		final Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(mURI));
+		startActivity(intent);
+		finish();
+	}
+
     public void sendRequest(View view) {
         Intent intent=new Intent(android.content.Intent.ACTION_SEND);
         intent.setType("text/plain");
