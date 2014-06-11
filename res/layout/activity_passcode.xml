@@ -14,7 +14,7 @@
       style="@style/OuterWidth"
       android:layout_height="fill_parent"
       android:fillViewport="true"
-      android:padding="20dp"
+      android:padding="15dp"
       android:clipToPadding="false"
       android:scrollbarStyle="outsideOverlay"
       >
@@ -94,8 +94,8 @@
   	<Button
 	    android:id="@+id/button_1"
 	    android:text="@string/passcode_1"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -104,8 +104,8 @@
   	<Button
 	    android:id="@+id/button_2"
 	    android:text="@string/passcode_2"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -114,8 +114,8 @@
   	<Button
 	    android:id="@+id/button_3"
 	    android:text="@string/passcode_3"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -131,8 +131,8 @@
   	<Button
 	    android:id="@+id/button_4"
 	    android:text="@string/passcode_4"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -141,8 +141,8 @@
   	<Button
 	    android:id="@+id/button_5"
 	    android:text="@string/passcode_5"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -151,8 +151,8 @@
   	<Button
 	    android:id="@+id/button_6"
 	    android:text="@string/passcode_6"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -168,8 +168,8 @@
   	<Button
 	    android:id="@+id/button_7"
 	    android:text="@string/passcode_7"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -178,8 +178,8 @@
   	<Button
 	    android:id="@+id/button_8"
 	    android:text="@string/passcode_8"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -188,8 +188,8 @@
   	<Button
 	    android:id="@+id/button_9"
 	    android:text="@string/passcode_9"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -205,8 +205,8 @@
   	<Button
 	    android:id="@+id/button_clr"
 	    android:text="@string/passcode_clr"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="clearPasscode"
@@ -215,8 +215,8 @@
   	<Button
 	    android:id="@+id/button_0"
 	    android:text="@string/passcode_0"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="enterDigit"
@@ -225,8 +225,8 @@
   	<Button
 	    android:id="@+id/button_del"
 	    android:text="@string/passcode_del"
-	    android:layout_width="75dp"
-	    android:layout_height="75dp"
+	    android:layout_width="80dp"
+	    android:layout_height="60dp"
 	    android:textAppearance="@android:style/TextAppearance.Large"
 	    android:textStyle="bold"
 	    android:onClick="deleteDigit"
@@ -278,8 +278,8 @@
 
       <Button
 	  android:id="@+id/submit"
-	  android:layout_width="180dp"
-	  android:layout_height="wrap_content"
+	  android:layout_width="240dp"
+      android:layout_height="60dp"
 	  android:text="@string/passcode_submit"
 	  android:onClick="submitPasscode"
 	  />
