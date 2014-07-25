@@ -6,7 +6,7 @@ apply plugin: 'maven'
 
 dependencies {
     compile project(':zxscanlib')
-    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.android.support:appcompat-v7:20.+'
     compile 'org.slf4j:slf4j-api:1.7.6'
     compile 'com.google:bitcoinj:0.11.2'
     compile 'com.github.tony19:logback-android-classic:1.1.1-2'
@@ -18,7 +18,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.11.+'
+        classpath 'com.android.tools.build:gradle:0.12.1'
     }
 }
 
@@ -29,8 +29,8 @@ allprojects {
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion '19.1.0'
+    compileSdkVersion 20
+    buildToolsVersion '20'
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -47,8 +47,8 @@ android {
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 19
-        versionCode 33
-        versionName '0.36-test'
+        versionCode 37
+        versionName '0.37-test'
     }
     buildTypes {
         release {
